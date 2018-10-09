@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 1%;
+    padding: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: black;
+    color: azure;
+}
+/* styles for header intro */
+.header{
+    margin-left: 650px;
+    position: relative;
+}
+.avatar{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+}
+.hello{
+    margin-left: 30px;
+    font-size: 50px;
+}
+.helPara{
+    position: relative;
+    right: 300px;
+    word-spacing: 10px;
+    font-stretch: ultra-expanded;
+    font-size: 35px;
+}
+hr{
+    position: relative;
+    width: 80%;
+    margin-right:140px;
+}
+.hr2{
+    position: relative;
+    bottom: 8px;
+}
+/* header closed */
+/* first grid decorations */
+.hello2{
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+}
+/* first container layout */
+.container1{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 50px;
+    row-gap: 50px;
+    height: 800px;
+    
+}
+
+.container1 > div{
+    display: grid;
+    grid-gap: 5px;
+    margin-left: 100px;
+    width: 400px;
+}
+
+/* pics for first container */
+
+.picblock1 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock2 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock3 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock4 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock5 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock6 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock7 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock8 img{
+    width: 400px;
+    height: 300px;
+}
+
+.picblock9 img{
+    width: 400px;
+    height: 300px;
+}
+
+/* general style for fonts */
+
+.h1{
+    color: #ff3;
+    position: relative;
+    bottom: 50px;
+}
