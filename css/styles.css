@@ -1,3 +1,5 @@
+/* general template layout */
+
 html{
     scroll-behavior: smooth;
 }
@@ -10,8 +12,11 @@ body {
     background-size: cover;
     background: black;
     color: azure;
+    font-family: 'Vollkorn';
 }
+
 /* styles for header intro */
+
 .header{
     margin-left: 650px;
     position: relative;
@@ -42,19 +47,23 @@ hr{
     position: relative;
     bottom: 8px;
 }
+
 /* header closed */
 /* first grid decorations */
+
 .hello2{
     position: relative;
     font-size: 50px;
     text-align: center;
 }
+
 /* first container layout */
+
 .container1{
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3, 400px);
-    column-gap: 50px;
+    column-gap: 30px;
     row-gap: 50px;
     height: 800px;
     
@@ -119,5 +128,36 @@ hr{
 .h1{
     color: #ff3;
     position: relative;
-    bottom: 50px;
+    bottom: 25px;
 }
+
+p{
+    position: relative;
+    bottom: 70px;
+    font-size: 16px;
+}
+
+/* container 2 content */
+
+.container2{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 640px);
+    height: 800px;
+}
+
+.container2 > div{
+    display: grid;
+    grid-gap: 30px;
+    margin-left: 85px;
+    width: 640px;
+}
+
+.gridBlock2{
+    position: relative;
+    right: 30px;
+}
+
+/* .gridBlock3{
+    width: 640px;
+} */
