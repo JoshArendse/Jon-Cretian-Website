@@ -64,7 +64,6 @@ hr{
     grid-gap: 5px;
     grid-template-columns: repeat(3, 400px);
     column-gap: 30px;
-    row-gap: 50px;
     height: 800px;
     
 }
@@ -148,8 +147,9 @@ p{
 
 .container2 > div{
     display: grid;
+    position: relative;
     grid-gap: 30px;
-    margin-left: 85px;
+    margin-left: 110px;
     width: 640px;
 }
 
@@ -158,6 +158,49 @@ p{
     right: 30px;
 }
 
-/* .gridBlock3{
-    width: 640px;
-} */
+.gridBlock4{
+    position: relative;
+    top: 865px;
+    right: 30px;
+}
+
+/* container 3 content */
+
+.container3{
+    display: grid;
+    grid-gap: 130px;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.container3 > div{
+    display: grid;
+    grid-gap: 30px;
+    position: relative;
+    left: 100px;
+}
+
+.container3 > div > img{
+    width: 300px;
+}
+
+.container3 > div > p{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: 25px;
+    color: #ff3;
+}
+
+/* footer content */
+footer{
+    height: 150px;
+}
+
+footer > ul{
+    position: relative;
+    top: 70px;
+    left: 50px;
+    display: inline;
+    font-size: 25px;
+    color: #ff3;
+}
