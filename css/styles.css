@@ -75,7 +75,7 @@ hr{
     width: 400px;
 }
 
-/* pics for first container */
+/* images for first container */
 
 .picblock1 img{
     width: 400px;
@@ -122,21 +122,7 @@ hr{
     height: 300px;
 }
 
-/* general style for fonts */
-
-.h1{
-    color: #ff3;
-    position: relative;
-    bottom: 25px;
-}
-
-p{
-    position: relative;
-    bottom: 70px;
-    font-size: 16px;
-}
-
-/* container 2 content */
+/* container 2 content and styling */
 
 .container2{
     display: grid;
@@ -158,13 +144,17 @@ p{
     right: 30px;
 }
 
+.gridBlock3 > img{
+    width: 1255px;
+}
+
 .gridBlock4{
     position: relative;
     top: 865px;
     right: 30px;
 }
 
-/* container 3 content */
+/* container 3 content and styling */
 
 .container3{
     display: grid;
@@ -191,7 +181,7 @@ p{
     color: #ff3;
 }
 
-/* footer content */
+/* footer content including copyright and contact info */
 footer{
     height: 150px;
 }
@@ -204,3 +194,112 @@ footer > ul{
     font-size: 25px;
     color: #ff3;
 }
+
+/* extra styles for pics and anchor tags*/
+
+span{
+    color: #ff3;
+}
+
+span:hover{
+    color: grey;
+}
+
+ul:hover{
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: #ff3;
+}
+a:hover{
+    color: gray;
+}
+a:active{
+    color: rgb(101, 119, 0);
+}
+
+.grey{
+    transition: opacity .3s linear;
+}
+.grey:hover{
+    opacity: 0.7;
+}
+
+/* general styling for fonts */
+
+.h1{
+    color: #ff3;
+    position: relative;
+    bottom: 25px;
+}
+
+.h1:hover{
+    color: gray;
+}
+
+p{
+    position: relative;
+    bottom: 60px;
+    font-size: 16px;
+}
+
+/* responsiveness */
+
+@media screen and (max-width:600px) {
+/* general responsiveness */
+    body{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+
+     .header{
+        display: none;
+    }
+
+     hr{
+        display: none;
+    }
+
+/* container 1 responsiveness */
+
+    .container1{
+        display: inline-block;
+        grid-auto-columns: auto;
+    }
+
+/* container 2 responsiveness */
+
+    .container2{
+        display: inline-block;
+        grid-auto-columns: repeat(1,1fr);
+    }
+
+    .container2 > div > img{
+        display: inline-block;
+        width: 400px;
+        position: relative;
+        bottom: 700px;
+    }
+
+    .photo{
+        position: relative;
+        bottom: 700px;
+    }
+
+/* conatiner 3 responsiveness */
+
+    .container3{
+        display: inline-block;
+        grid-auto-columns: auto;
+    }
+
+    hr{
+        display: none;
+    }
+}
+
+
+
