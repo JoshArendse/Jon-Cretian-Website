@@ -15,6 +15,11 @@ body {
     font-family: 'Vollkorn';
 }
 
+.main{
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 /* styles for header intro */
 
 .header{
@@ -247,13 +252,8 @@ p{
 
 /* responsiveness */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
 /* general responsiveness */
-    body{
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-    }
 
      .header{
         display: none;
@@ -263,18 +263,26 @@ p{
         display: none;
     }
 
+    .main{
+        overflow: hidden;
+        width:96%;
+        padding: 2%;
+    }
+
 /* container 1 responsiveness */
 
     .container1{
         display: inline-block;
         grid-auto-columns: auto;
+        position: relative;
+        right: 30px;
     }
 
 /* container 2 responsiveness */
 
     .container2{
-        display: inline-block;
-        grid-auto-columns: repeat(1,1fr);
+        display: grid;
+        grid-auto-columns: auto;
     }
 
     .container2 > div > img{
@@ -286,7 +294,7 @@ p{
 
     .photo{
         position: relative;
-        bottom: 700px;
+        bottom: 700px; 
     }
 
 /* conatiner 3 responsiveness */
@@ -294,10 +302,23 @@ p{
     .container3{
         display: inline-block;
         grid-auto-columns: auto;
+        position: relative;
+        left: 20px;
     }
 
     hr{
         display: none;
+    }
+
+    footer{
+        position: relative;
+        left: 20px;
+        bottom: 100px;
+    }
+
+    .jon{
+        position: relative;
+        left: 150px;
     }
 }
 
