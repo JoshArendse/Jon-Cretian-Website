@@ -146,6 +146,10 @@ hr{
     width: 640px;
 }
 
+img:hover{
+    opacity: 0.8;
+}
+
 .gridBlock2{
     position: relative;
     right: 30px;
@@ -256,7 +260,7 @@ p{
 
 /* responsiveness */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 720px) {
 /* general responsiveness */
 
      .header{
@@ -270,7 +274,7 @@ p{
     .main{
         overflow: hidden;
         width:96%;
-        padding: 2%;
+        padding-left: none;
     }
 
 /* container 1 responsiveness */
