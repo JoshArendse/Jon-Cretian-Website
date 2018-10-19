@@ -260,7 +260,7 @@ p{
 
 /* responsiveness */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 600px) {
 /* general responsiveness */
 
      .header{
@@ -282,38 +282,59 @@ p{
     .container1{
         display: inline-block;
         grid-auto-columns: auto;
+        position: relative;
+        right: 100px;
+    }
+
+    .hello2{
+        position: relative;
+        right: 40px;
     }
 
 /* container 2 responsiveness */
 
     .container2{
-        display: grid;
+        display: inline-block;
         grid-auto-columns: auto;
+        position: relative;
+        right: 100px;
+        bottom: 700px;
     }
 
-    .container2 > div > img{
-        display: inline-block;
+    .container2 > div > a > img{
         width: 400px;
-        position: relative;
-        bottom: 700px;
+        height: 300px;
     }
 
     .gridBlock2{
         position: relative;
-        right: 670px;
-        top: 900px;
+        left: 1px;
+        top: 20px;
+    }
+
+    .gridBlock3{
+        position: relative;
+        top: 50px;
     }
 
     .gridBlock4{
         position: relative;
-        right: 670px;
-        top: 900px;
+        top:430px;
+        left: 3px;
+    }
+
+    .gridBlock5{
+        position: relative;
+        bottom: 210px;
     }
 
     .photo{
         position: relative;
-        bottom: 700px; 
+        bottom: 750px;
+        right: 60px;
     }
+
+
 
 /* conatiner 3 responsiveness */
 
@@ -321,13 +342,14 @@ p{
         display: inline-block;
         grid-auto-columns: auto;
         position: relative;
-        left: 40px;
-        bottom: 900px;
+        bottom: 1550px;
+        right: 100px;
     }
 
     .current{
         position: relative;
-        bottom: 1000px;
+        bottom: 1600px;
+        right: 90px;
     }
 
     hr{
@@ -336,8 +358,8 @@ p{
 
     .footer{
         position: relative;
-        left: 20px;
-        bottom: 1000px;
+        right: 80px;
+        bottom: 1600px;
     }
 
     .jon{
