@@ -17,7 +17,7 @@ body {
 
 .main{
     margin: 0 auto;
-    overflow: hidden;
+    overflow: none;
 }
 
 /* styles for header intro */
@@ -273,8 +273,9 @@ p{
 
     .main{
         overflow: hidden;
-        width:96%;
-        padding-left: none;
+        width:100%;
+        padding-left: 5%;
+        padding-right: none;
     }
 
 /* container 1 responsiveness */
