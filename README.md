@@ -1,6 +1,6 @@
 # *Jon Chretien Project*
 
-## Recreating the Jon Chretien website from scratch.
+## Recreating the Jon Chretien
 
 
 ```
@@ -17,7 +17,7 @@ My attempt to imitate the Jon Chretien website from scratch.
 
 ## Live Link:
 
-Live link ---> 
+Live link ---> https://josharendse.github.io/JonChretien/index.html
 
 ## Contributor:
 
