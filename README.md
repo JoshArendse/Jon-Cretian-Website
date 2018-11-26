@@ -4,9 +4,7 @@
 
 
 ```
-In this project, I will be attempting to replicate the Jon Chretien website from 
-
-scratch using the coding skills I have learned and developed from the start of the course.
+My attempt to imitate the Jon Chretien website from scratch.
 ```
 
 ## Software and Programs used:
@@ -14,18 +12,15 @@ scratch using the coding skills I have learned and developed from the start of t
 ```
 -HTML
 -CSS
--Responsive Design
--VS Code (Visual Studio Code)
--Github
--Intergrated Terminal (VS Code)
+-Visual Studio Code (Text-Editor)
 ```
 
 ## Live Link:
 
-Live link ---> https://taufeeqr.github.io/jon-chretien/index.html
+Live link ---> 
 
-## Contributors:
+## Contributor:
 
 ```
-Taufeeq Rajap
+Josh Arendse
 ```
