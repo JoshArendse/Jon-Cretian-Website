@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    background-color: black;
+    background-color: #101a24;
     font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
     border-top: 13px solid rgb(61, 60, 60);
     margin: 0 auto;
@@ -96,18 +96,18 @@ hr {
 
 .header-paragraph {
     color: #ccc;
-    font-size: 1.1em;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Vollkorn', serif;
 }
 
 /*Styling for images and weblinks*/
 img {
-    transition: opacity 500ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }
 
 img:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 a:link {
@@ -139,6 +139,7 @@ a:hover {
     margin: 0 auto 0 auto;
     padding: 3.5em 0 1.75em 0;
     width: 100%;
+    height: 400px;
 }
 
 .header img {
