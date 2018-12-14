@@ -1,23 +1,19 @@
-# *Jon Chretien Project*
+# *CV project*
 
-## Recreating the Jon Chretien
-
-
-```
-My attempt to imitate the Jon Chretien website from scratch.
-```
+## View to find out more about me
 
 ## Software and Programs used:
 
 ```
--HTML
--CSS
+-HTML5
+-CSS3
+-JavaScript
 -Visual Studio Code (Text-Editor)
 ```
 
 ## Live Link:
 
-Live link ---> https://josharendse.github.io/JonChretien/index.html
+Live link ---> https://josharendse.github.io/portfolio/index.html
 
 ## Contributor:
 
